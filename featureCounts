@@ -1,0 +1,20 @@
+#featureCounts
+
+#Path to gtf file: 
+/bighome/lastarr/c_elegans.PRJNA13758.WS285.canonical_geneset.gtf
+
+#Paths to Bam files:
+/bighome/lastarr/Practice_DA_RNAseq/practiceAligned.sortedByCoord.out.bam
+
+/bighome/lastarr/Practice_DA_RNAseq/practice2Aligned.sortedByCoord.out.bam
+
+/bighome/lastarr/Practice_DA_RNAseq/practice3Aligned.sortedByCoord.out.bam
+
+/bighome/lastarr/Practice_DA_RNAseq/practice4Aligned.sortedByCoord.out.bam
+
+/bighome/lastarr/Practice_DA_RNAseq/practice5Aligned.sortedByCoord.out.bam
+
+/bighome/lastarr/Practice_DA_RNAseq/results/practice8Aligned.sortedByCoord.out.bam
+
+#input code
+./featureCounts -T 8 -s 2 -t gene -o /bighome/lastarr/Practice_DA_RNAseq/featureCounts /bighome/lastarr/c_elegans.PRJNA13758.WS285.canonical_geneset.gtf /bighome/lastarr/Practice_DA_RNAseq/results/practiceAligned.sortedByCoord.out.bam /bighome/lastarr/Practice_DA_RNAseq/results/practice2Aligned.sortedByCoord.out.bam /bighome/lastarr/Practice_DA_RNAseq/results/practice3Aligned.sortedByCoord.out.bam /bighome/lastarr/Practice_DA_RNAseq/results/practice4Aligned.sortedByCoord.out.bam /bighome/lastarr/Practice_DA_RNAseq/results/practice5Aligned.sortedByCoord.out.bam /bighome/lastarr/Practice_DA_RNAseq/results/practice6Aligned.sortedByCoord.out.bam
