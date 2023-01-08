@@ -1,0 +1,5 @@
+STAR
+--genomeDir /bighome/lastarr/WS285/Aligned.out.sam
+--ReadThreadN 8
+--outFileNamePrefix
+--ReadFilesIn /bighome/lastarr/PracticeD2005.1_Rep1
